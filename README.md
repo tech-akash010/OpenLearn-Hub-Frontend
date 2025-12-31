@@ -1,116 +1,111 @@
-# OpenLearn-Hub Frontend
+<div align="center">
+  <h1>🎓 OpenLearn Hub</h1>
+  <h3>A Revolutionary Community-Driven Educational Platform</h3>
+  
+  <p>
+    <a href="#features">Features</a> •
+    <a href="#getting-started">Getting Started</a> •
+    <a href="#tech-stack">Tech Stack</a> •
+    <a href="#contributing">Contributing</a>
+  </p>
 
-A modern, feature-rich educational platform built with React, TypeScript, and Vite. OpenLearn-Hub provides a comprehensive learning experience with community notes, course management, subscriptions, and AI-powered features.
+  <img src="https://img.shields.io/badge/React-19.x-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-6.x-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Google_Gemini-AI-8E75B2?style=for-the-badge&logo=google-bard&logoColor=white" alt="Google Gemini" />
+</div>
 
-## 🚀 Features
+<br />
 
-- **📚 Course Management** - Browse, create, and manage educational courses
-- **📝 Community Notes** - Share and discover community-contributed notes
-- **🎯 Learning Paths** - Structured learning journeys across subjects
-- **🏆 Gamification** - Leaderboards, achievements, and XP system
-- **👥 Subscriptions** - Follow creators and get updates
-- **📊 Progress Tracking** - Track your learning journey
-- **🤖 AI Integration** - Powered by Google Gemini API
-- **📱 Responsive Design** - Works seamlessly on all devices
+## 🌟 Overview
 
-## 🛠️ Tech Stack
+**OpenLearn Hub** is a next-generation educational platform that democratizes access to quality learning resources. Built with modern web technologies, it provides a seamless experience for students, teachers, and online educators to share, discover, and organize educational content across multiple learning paths.
 
-- **React 19** - UI Framework
-- **TypeScript** - Type Safety
-- **Vite** - Build Tool
-- **Tailwind CSS** - Styling
-- **React Router** - Navigation
-- **Lucide React** - Icons
-- **Recharts** - Data Visualization
+## 🎯 Vision
 
-## 📦 Installation
+To create an open, collaborative ecosystem where knowledge flows freely between learners and educators, structured intelligently, and accessible to everyone.
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/openlearn-hub-frontend.git
+## ✨ Features
 
-# Navigate to the project directory
-cd openlearn-hub-frontend
+### 📚 Multi-Path Content Organization
+- **Subject-wise Navigation**: Browse by Computer Science, Mathematics, Physics, Chemistry, and more.
+- **University Curriculum**: Content organized by university, semester, department, and subject.
+- **YouTube Channel Integration**: Curated playlists from educational channels (CodeWithHarry, Khan Academy, etc.).
+- **Course Platform Links**: Direct integration with Udemy, Coursera, NPTEL, edX, and YouTube courses.
+- **Competitive Exam Prep**: Dedicated paths for JEE, NEET, and other exams.
 
-# Install dependencies
-npm install
+### 🧠 AI-Powered Learning
+- **Smart Assistance**: Integrated with **Google Gemini** for intelligent content recommendations and query resolution.
+- **Personalized Experience**: AI-driven insights to tailor the learning journey.
 
-# Create environment file
-cp .env.example .env
+### 👥 Role-Based Access Control
+Four distinct user roles with unique capabilities:
+1. **Students**: Access community notes, upload verified content, follow educators.
+2. **Teachers**: Verified institutional affiliation, upload course-linked content.
+3. **Online Educators**: Link to YouTube/platform channels, share course materials.
+4. **Admins**: Manage platform integrity and users.
 
-# Start development server
-npm run dev
-```
+### 🎨 Modern & Responsive UI
+- **Glassmorphism Design**: Sleek, modern aesthetic using Tailwind CSS.
+- **Interactive Charts**: Visual progress tracking with **Recharts**.
+- **Performance Optimized**: Lazy loading, code splitting, and efficient rendering with Vite.
 
-## ⚙️ Environment Variables
+## 🛠 Tech Stack
 
-Create a `.env` file in the root directory:
+| Component | Technology |
+|-----------|------------|
+| **Core Framework** | React 19 |
+| **Language** | TypeScript |
+| **Build Tool** | Vite |
+| **Styling** | Tailwind CSS, Lucide React (Icons) |
+| **Routing** | React Router DOM |
+| **AI Integration** | Google GenAI SDK |
+| **Data Viz** | Recharts |
 
-```env
-# Backend API URL
-VITE_API_URL=http://localhost:5000
+## 🚀 Getting Started
 
-# For production, use your deployed backend URL
-# VITE_API_URL=https://your-backend.vercel.app
-```
+### Prerequisites
 
-## 🚀 Deployment on Vercel
+- **Node.js** >= 20.x
+- **npm** >= 9.x or **yarn** >= 1.22.x
 
-### Option 1: One-Click Deploy
+### Installation
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/openlearn-hub-frontend)
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Ayon-coder/OpenLearn-Hub-Frontend.git
+   cd OpenLearn-Hub-Frontend
+   ```
 
-### Option 2: Manual Deployment
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-1. Push your code to GitHub
-2. Import the repository in Vercel Dashboard
-3. Configure environment variables:
-   - `VITE_API_URL` - Your deployed backend URL
-4. Deploy!
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
 
-### Vercel Configuration
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to view the application.
 
-The `vercel.json` file is pre-configured with:
-- SPA routing support
-- Security headers
-- Asset caching
-- Clean URLs
+## 🤝 Contributing
 
-## 📜 Available Scripts
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-```bash
-# Development server
-npm run dev
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-# Production build
-npm run build
+## ✍️ Authors
 
-# Preview production build
-npm run preview
-```
-
-## 📁 Project Structure
-
-```
-src/
-├── app/           # App entry and routing
-├── components/    # Reusable UI components
-├── contexts/      # React contexts
-├── hooks/         # Custom hooks
-├── pages/         # Page components
-├── services/      # API and service functions
-├── types/         # TypeScript type definitions
-└── utils/         # Utility functions
-```
-
-## 🔗 Related
-
-- [OpenLearn-Hub Backend](https://github.com/your-username/openlearn-hub-backend) - Backend API
+- **[@tech-akash010](https://github.com/tech-akash010)**
+- **[@Ayon-coder](https://github.com/Ayon-coder)**
 
 ## 📄 License
 
-MIT License - feel free to use this project for your own purposes.
-
----
-
-Built with ❤️ for the love of learning
+Distributed under the MIT License. See `LICENSE` for more information.
