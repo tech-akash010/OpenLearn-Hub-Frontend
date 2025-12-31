@@ -3,7 +3,8 @@
  * Handles user authentication with backend
  */
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_BASE = `${BASE_URL}/api`;
 
 export interface RegisterData {
     email: string;

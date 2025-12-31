@@ -3,7 +3,8 @@
  * Handles admin authentication and user management API calls
  */
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_BASE = `${BASE_URL}/api`;
 
 const ADMIN_TOKEN_KEY = 'openlearn_admin_token';
 
